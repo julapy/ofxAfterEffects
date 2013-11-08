@@ -13,7 +13,7 @@ resource 'PiPL' (16000) {
 		},
 		/* [2] */
 		Name {
-			"ofxAfterEffects"
+			"Skeleton"
 		},
 		/* [3] */
 		Category {
@@ -60,7 +60,7 @@ resource 'PiPL' (16000) {
 		},
 		/* [11] */
 		AE_Effect_Match_Name {
-			"ADBE ofxAfterEffects"
+			"ADBE Skeleton"
 		},
 		/* [12] */
 		AE_Reserved_Info {

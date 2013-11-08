@@ -1,0 +1,232 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		676F4E48182DAB9700E1687F /* Skeleton_Strings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 676F4E44182DAB9700E1687F /* Skeleton_Strings.cpp */; };
+		676F4E49182DAB9700E1687F /* Skeleton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 676F4E46182DAB9700E1687F /* Skeleton.cpp */; };
+		676F4E4D182DABF500E1687F /* AEGP_SuiteHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 676F4E4A182DABF500E1687F /* AEGP_SuiteHandler.cpp */; };
+		676F4E4E182DABF500E1687F /* MissingSuiteError.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 676F4E4C182DABF500E1687F /* MissingSuiteError.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		676F4E44182DAB9700E1687F /* Skeleton_Strings.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Skeleton_Strings.cpp; sourceTree = "<group>"; };
+		676F4E45182DAB9700E1687F /* Skeleton_Strings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Skeleton_Strings.h; sourceTree = "<group>"; };
+		676F4E46182DAB9700E1687F /* Skeleton.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Skeleton.cpp; sourceTree = "<group>"; };
+		676F4E47182DAB9700E1687F /* Skeleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Skeleton.h; sourceTree = "<group>"; };
+		676F4E4A182DABF500E1687F /* AEGP_SuiteHandler.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AEGP_SuiteHandler.cpp; path = ../libs/Util/AEGP_SuiteHandler.cpp; sourceTree = "<group>"; };
+		676F4E4B182DABF500E1687F /* AEGP_SuiteHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AEGP_SuiteHandler.h; path = ../libs/Util/AEGP_SuiteHandler.h; sourceTree = "<group>"; };
+		676F4E4C182DABF500E1687F /* MissingSuiteError.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MissingSuiteError.cpp; path = ../libs/Util/MissingSuiteError.cpp; sourceTree = "<group>"; };
+		6772581E182CAC0E001421CB /* Skeleton copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Skeleton copy-Info.plist"; path = "/Volumes/STORAGE/AfterEffects_SDK/Examples/Template/Skeleton/Mac/Skeleton copy-Info.plist"; sourceTree = "<absolute>"; };
+		C4E618CC095A3CE80012CA3F /* Skeleton.plugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Skeleton.plugin; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C4E618CA095A3CE80012CA3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C4E6187C095A3C800012CA3F = {
+			isa = PBXGroup;
+			children = (
+				676F4E47182DAB9700E1687F /* Skeleton.h */,
+				676F4E46182DAB9700E1687F /* Skeleton.cpp */,
+				676F4E45182DAB9700E1687F /* Skeleton_Strings.h */,
+				676F4E44182DAB9700E1687F /* Skeleton_Strings.cpp */,
+				D0FE57630993C4FD00139A60 /* Supporting Code */,
+				C4E6188C095A3C800012CA3F /* Products */,
+				6772581E182CAC0E001421CB /* Skeleton copy-Info.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		C4E6188C095A3C800012CA3F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C4E618CC095A3CE80012CA3F /* Skeleton.plugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0FE57630993C4FD00139A60 /* Supporting Code */ = {
+			isa = PBXGroup;
+			children = (
+				676F4E4A182DABF500E1687F /* AEGP_SuiteHandler.cpp */,
+				676F4E4B182DABF500E1687F /* AEGP_SuiteHandler.h */,
+				676F4E4C182DABF500E1687F /* MissingSuiteError.cpp */,
+			);
+			name = "Supporting Code";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C4E618CB095A3CE80012CA3F /* Skeleton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4E618CE095A3CE90012CA3F /* Build configuration list for PBXNativeTarget "Skeleton" */;
+			buildPhases = (
+				C4E618C8095A3CE80012CA3F /* Resources */,
+				C4E618C9095A3CE80012CA3F /* Sources */,
+				C4E618CA095A3CE80012CA3F /* Frameworks */,
+				C4E618EA095A3E040012CA3F /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Skeleton;
+			productName = Skeleton.plugin;
+			productReference = C4E618CC095A3CE80012CA3F /* Skeleton.plugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C4E6187E095A3C800012CA3F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+			};
+			buildConfigurationList = C4E6187F095A3C800012CA3F /* Build configuration list for PBXProject "Skeleton" */;
+			compatibilityVersion = "Xcode 2.4";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C4E6187C095A3C800012CA3F;
+			productRefGroup = C4E6188C095A3C800012CA3F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C4E618CB095A3CE80012CA3F /* Skeleton */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C4E618C8095A3CE80012CA3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		C4E618EA095A3E040012CA3F /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C4E618C9095A3CE80012CA3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				676F4E48182DAB9700E1687F /* Skeleton_Strings.cpp in Sources */,
+				676F4E4E182DABF500E1687F /* MissingSuiteError.cpp in Sources */,
+				676F4E49182DAB9700E1687F /* Skeleton.cpp in Sources */,
+				676F4E4D182DABF500E1687F /* AEGP_SuiteHandler.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C4E61880095A3C800012CA3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					x86_64,
+					i386,
+				);
+				COPY_PHASE_STRIP = NO;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
+				GCC_MODEL_TUNING = "";
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Cocoa.framework/Headers/Cocoa.h";
+				GCC_REUSE_STRINGS = NO;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_THREADSAFE_STATICS = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_EFFECTIVE_CPLUSPLUS_VIOLATIONS = NO;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_SHADOW = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					../../../Headers,
+					../../../Util,
+					../../../Headers/SP,
+					../../../Resources,
+				);
+				REZ_PREPROCESSOR_DEFINITIONS = __MACH__;
+				SDKROOT = macosx10.7;
+				STRIP_INSTALLED_PRODUCT = NO;
+				WRAPPER_EXTENSION = plugin;
+			};
+			name = Debug;
+		};
+		C4E618CF095A3CE90012CA3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_MODEL_TUNING = G5;
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					../../../addons/ofxAfterEffects/libs/Headers,
+					../../../addons/ofxAfterEffects/libs/Util,
+					../../../addons/ofxAfterEffects/libs/Headers/SP,
+					../../../addons/ofxAfterEffects/libs/Resources,
+				);
+				INFOPLIST_FILE = "Skeleton.plugin-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				PRODUCT_NAME = Skeleton;
+				SDKROOT = macosx10.8;
+				ZERO_LINK = NO;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C4E6187F095A3C800012CA3F /* Build configuration list for PBXProject "Skeleton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4E61880095A3C800012CA3F /* Debug */,
+			);
+			defaultConfigurationIsVisible = 1;
+			defaultConfigurationName = Debug;
+		};
+		C4E618CE095A3CE90012CA3F /* Build configuration list for PBXNativeTarget "Skeleton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4E618CF095A3CE90012CA3F /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C4E6187E095A3C800012CA3F /* Project object */;
+}

@@ -10,6 +10,10 @@
 		676F4E28182D9ED200E1687F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 676F4E26182D9ED200E1687F /* InfoPlist.strings */; };
 		676F4E2D182D9F1200E1687F /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E45BE9760E8CC7DD009D7055 /* CoreFoundation.framework */; };
 		676F4E32182DA1DB00E1687F /* ofxAfterEffects.r in Rez */ = {isa = PBXBuildFile; fileRef = 676F4E30182DA0E700E1687F /* ofxAfterEffects.r */; };
+		676F4E3B182DA84200E1687F /* ofxAfterEffects.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 676F4E39182DA62F00E1687F /* ofxAfterEffects.cpp */; };
+		676F4E3C182DA84200E1687F /* ofxAfterEffects_Strings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 676F4E37182DA62F00E1687F /* ofxAfterEffects_Strings.cpp */; };
+		676F4E3D182DA9AD00E1687F /* MissingSuiteError.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 677257DA182C7D9B001421CB /* MissingSuiteError.cpp */; };
+		676F4E3E182DA9E200E1687F /* AEGP_SuiteHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 677257D4182C7D9B001421CB /* AEGP_SuiteHandler.cpp */; };
 		67C8859018167DD30046C13D /* ofApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 67C8858E18167DD30046C13D /* ofApp.cpp */; };
 		BBAB23CB13894F3D00AA2426 /* GLUT.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = BBAB23BE13894E4700AA2426 /* GLUT.framework */; };
 		E4328149138ABC9F0047C5CB /* openFrameworksDebug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4328148138ABC890047C5CB /* openFrameworksDebug.a */; };
@@ -68,6 +72,10 @@
 		676F4E27182D9ED200E1687F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		676F4E29182D9ED200E1687F /* plugin-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "plugin-Prefix.pch"; sourceTree = "<group>"; };
 		676F4E30182DA0E700E1687F /* ofxAfterEffects.r */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.rez; path = ofxAfterEffects.r; sourceTree = "<group>"; };
+		676F4E37182DA62F00E1687F /* ofxAfterEffects_Strings.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ofxAfterEffects_Strings.cpp; sourceTree = "<group>"; };
+		676F4E38182DA62F00E1687F /* ofxAfterEffects_Strings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxAfterEffects_Strings.h; sourceTree = "<group>"; };
+		676F4E39182DA62F00E1687F /* ofxAfterEffects.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ofxAfterEffects.cpp; sourceTree = "<group>"; };
+		676F4E3A182DA62F00E1687F /* ofxAfterEffects.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxAfterEffects.h; sourceTree = "<group>"; };
 		67725782182C7D9A001421CB /* After_Effects_SDK_Guide.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = After_Effects_SDK_Guide.pdf; sourceTree = "<group>"; };
 		67725785182C7D9A001421CB /* A.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = A.h; sourceTree = "<group>"; };
 		67725788182C7D9A001421CB /* AdobesdkTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdobesdkTypes.h; sourceTree = "<group>"; };
@@ -406,7 +414,11 @@
 		677257E3182C7D9B001421CB /* src */ = {
 			isa = PBXGroup;
 			children = (
+				676F4E3A182DA62F00E1687F /* ofxAfterEffects.h */,
+				676F4E39182DA62F00E1687F /* ofxAfterEffects.cpp */,
 				676F4E30182DA0E700E1687F /* ofxAfterEffects.r */,
+				676F4E38182DA62F00E1687F /* ofxAfterEffects_Strings.h */,
+				676F4E37182DA62F00E1687F /* ofxAfterEffects_Strings.cpp */,
 			);
 			path = src;
 			sourceTree = "<group>";
@@ -629,6 +641,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				676F4E3C182DA84200E1687F /* ofxAfterEffects_Strings.cpp in Sources */,
+				676F4E3B182DA84200E1687F /* ofxAfterEffects.cpp in Sources */,
+				676F4E3E182DA9E200E1687F /* AEGP_SuiteHandler.cpp in Sources */,
+				676F4E3D182DA9AD00E1687F /* MissingSuiteError.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -708,6 +724,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				REZ_PREPROCESSOR_DEFINITIONS = __MACH__;
 				SDKROOT = macosx10.8;
 				WRAPPER_EXTENSION = plugin;
 			};
@@ -755,6 +772,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				REZ_PREPROCESSOR_DEFINITIONS = __MACH__;
 				SDKROOT = macosx10.8;
 				WRAPPER_EXTENSION = plugin;
 			};
