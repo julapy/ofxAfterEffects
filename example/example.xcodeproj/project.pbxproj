@@ -802,7 +802,7 @@
 					"$(OF_CORE_HEADERS)",
 					src,
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				OTHER_CPLUSPLUSFLAGS = (
 					"-D__MACOSX_CORE__",
 					"-lpthread",
@@ -837,7 +837,7 @@
 					"$(OF_CORE_HEADERS)",
 					src,
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				OTHER_CPLUSPLUSFLAGS = (
 					"-D__MACOSX_CORE__",
 					"-lpthread",
@@ -1048,6 +1048,7 @@
 				676F4E2B182D9ED200E1687F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E4B69B4D0A3A1720003C02F2 /* Build configuration list for PBXProject "example" */ = {
 			isa = XCConfigurationList;
