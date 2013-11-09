@@ -79,7 +79,6 @@
 		67834FD9182E56570077B260 /* SPSuites.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPSuites.h; sourceTree = "<group>"; };
 		67834FDA182E56570077B260 /* SPTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPTypes.h; sourceTree = "<group>"; };
 		67834FDB182E56570077B260 /* SuiteHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SuiteHelper.h; sourceTree = "<group>"; };
-		67834FDD182E56570077B260 /* stdint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = stdint.h; sourceTree = "<group>"; };
 		67834FDF182E56570077B260 /* AE_General.r */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.rez; path = AE_General.r; sourceTree = "<group>"; };
 		67834FE0182E56570077B260 /* Mach-O_prefix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Mach-O_prefix.h"; sourceTree = "<group>"; };
 		67834FE1182E56570077B260 /* PiPLtool.exe */ = {isa = PBXFileReference; lastKnownFileType = file; path = PiPLtool.exe; sourceTree = "<group>"; };
@@ -162,7 +161,6 @@
 				67834FC2182E56570077B260 /* PT_Public.h */,
 				67834FC3182E56570077B260 /* SP */,
 				67834FDB182E56570077B260 /* SuiteHelper.h */,
-				67834FDC182E56570077B260 /* Win */,
 			);
 			name = Headers;
 			path = ../libs/Headers;
@@ -224,14 +222,6 @@
 				67834FDA182E56570077B260 /* SPTypes.h */,
 			);
 			path = SP;
-			sourceTree = "<group>";
-		};
-		67834FDC182E56570077B260 /* Win */ = {
-			isa = PBXGroup;
-			children = (
-				67834FDD182E56570077B260 /* stdint.h */,
-			);
-			path = Win;
 			sourceTree = "<group>";
 		};
 		67834FDE182E56570077B260 /* Resources */ = {
