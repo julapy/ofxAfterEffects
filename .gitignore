@@ -12,5 +12,6 @@ DerivedData/
 *.mode2v3
 
 */bin/*.app
+*/bin/*.plugin
 
 xcuserdata/
