@@ -27,6 +27,13 @@
 #ifndef _H_A
 #define _H_A
 
+//------------------------------------------ JULAPY ADDITION
+#include "AEConfig.h"
+#ifdef AE_OS_MAC
+    #import <Cocoa/Cocoa.h>
+#endif
+//------------------------------------------
+
 #ifdef A_INTERNAL
 
 	#include <A_Private.h>

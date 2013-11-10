@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		673B132B182F2792005A7593 /* ofxAfterEffects.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 676F4E39182DA62F00E1687F /* ofxAfterEffects.cpp */; };
-		673B132C182F279B005A7593 /* ofxAfterEffects_Strings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 676F4E37182DA62F00E1687F /* ofxAfterEffects_Strings.cpp */; };
-		673B132D182F27AC005A7593 /* AEGP_SuiteHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 677257D4182C7D9B001421CB /* AEGP_SuiteHandler.cpp */; };
-		673B132E182F27B9005A7593 /* MissingSuiteError.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 677257DA182C7D9B001421CB /* MissingSuiteError.cpp */; };
+		673B132B182F2792005A7593 /* ofxAfterEffects.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 676F4E39182DA62F00E1687F /* ofxAfterEffects.cpp */; settings = {COMPILER_FLAGS = "-x objective-c++"; }; };
+		673B132C182F279B005A7593 /* ofxAfterEffects_Strings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 676F4E37182DA62F00E1687F /* ofxAfterEffects_Strings.cpp */; settings = {COMPILER_FLAGS = "-x objective-c++"; }; };
+		673B132D182F27AC005A7593 /* AEGP_SuiteHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 677257D4182C7D9B001421CB /* AEGP_SuiteHandler.cpp */; settings = {COMPILER_FLAGS = "-x objective-c++"; }; };
+		673B132E182F27B9005A7593 /* MissingSuiteError.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 677257DA182C7D9B001421CB /* MissingSuiteError.cpp */; settings = {COMPILER_FLAGS = "-x objective-c++"; }; };
 		673B1330182F2869005A7593 /* ofxAfterEffects.r in Rez */ = {isa = PBXBuildFile; fileRef = 676F4E30182DA0E700E1687F /* ofxAfterEffects.r */; };
 		67552EFC182F23C9004C0FC7 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7F985F515E0DE99003869B5 /* Accelerate.framework */; };
 		67552EFD182F23C9004C0FC7 /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7E077E715D3B6510020DFD4 /* QTKit.framework */; };
@@ -31,6 +31,7 @@
 		67552F0C182F23C9004C0FC7 /* openFrameworksDebug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4328148138ABC890047C5CB /* openFrameworksDebug.a */; };
 		67552F0F182F23C9004C0FC7 /* GLUT.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = BBAB23BE13894E4700AA2426 /* GLUT.framework */; };
 		67C8859018167DD30046C13D /* ofApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 67C8858E18167DD30046C13D /* ofApp.cpp */; };
+		67CD7B60182FAE060026BAA0 /* ofApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 67C8858E18167DD30046C13D /* ofApp.cpp */; };
 		BBAB23CB13894F3D00AA2426 /* GLUT.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = BBAB23BE13894E4700AA2426 /* GLUT.framework */; };
 		E4328149138ABC9F0047C5CB /* openFrameworksDebug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4328148138ABC890047C5CB /* openFrameworksDebug.a */; };
 		E45BE97B0E8CC7DD009D7055 /* AGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E45BE9710E8CC7DD009D7055 /* AGL.framework */; };
@@ -196,7 +197,6 @@
 		677257E2182C7D9B001421CB /* String_Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = String_Utils.h; sourceTree = "<group>"; };
 		67C8858E18167DD30046C13D /* ofApp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofApp.cpp; sourceTree = "<group>"; };
 		67C8858F18167DD30046C13D /* ofApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofApp.h; sourceTree = "<group>"; };
-		67CD7B5E182FAAA10026BAA0 /* plugin.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = plugin.pch; sourceTree = "<group>"; };
 		BBAB23BE13894E4700AA2426 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = ../../../libs/glut/lib/osx/GLUT.framework; sourceTree = "<group>"; };
 		E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = openFrameworksLib.xcodeproj; path = ../../../libs/openFrameworksCompiled/project/osx/openFrameworksLib.xcodeproj; sourceTree = SOURCE_ROOT; };
 		E45BE9710E8CC7DD009D7055 /* AGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AGL.framework; path = /System/Library/Frameworks/AGL.framework; sourceTree = "<absolute>"; };
@@ -513,7 +513,6 @@
 			children = (
 				E4B6FCAD0C3E899E008CF71C /* openFrameworks-Info.plist */,
 				67552F14182F23C9004C0FC7 /* plugin-Info.plist */,
-				67CD7B5E182FAAA10026BAA0 /* plugin.pch */,
 				E4EB6923138AFD0F00A09F29 /* Project.xcconfig */,
 				E4B69E1C0A3A1BDC003C02F2 /* src */,
 				E4EEC9E9138DF44700A80321 /* openFrameworks */,
@@ -677,6 +676,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67CD7B60182FAE060026BAA0 /* ofApp.cpp in Sources */,
 				673B132E182F27B9005A7593 /* MissingSuiteError.cpp in Sources */,
 				673B132D182F27AC005A7593 /* AEGP_SuiteHandler.cpp in Sources */,
 				673B132C182F279B005A7593 /* ofxAfterEffects_Strings.cpp in Sources */,
@@ -722,9 +722,9 @@
 				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../../libs/glut/lib/osx\"";
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
+				GCC_INPUT_FILETYPE = automatic;
 				GCC_MODEL_TUNING = NONE;
-				GCC_PREFIX_HEADER = plugin.pch;
+				GCC_PREFIX_HEADER = "";
 				HEADER_SEARCH_PATHS = (
 					"$(OF_CORE_HEADERS)",
 					src,
@@ -802,7 +802,7 @@
 					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_52)",
 				);
 				MACH_O_TYPE = mh_bundle;
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = OFApp;
 				REZ_PREPROCESSOR_DEFINITIONS = __MACH__;
 				SDKROOT = macosx10.8;
@@ -822,9 +822,9 @@
 				);
 				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../../libs/glut/lib/osx\"";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
+				GCC_INPUT_FILETYPE = automatic;
 				GCC_MODEL_TUNING = NONE;
-				GCC_PREFIX_HEADER = plugin.pch;
+				GCC_PREFIX_HEADER = "";
 				HEADER_SEARCH_PATHS = (
 					"$(OF_CORE_HEADERS)",
 					src,
@@ -902,7 +902,7 @@
 					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_51)",
 				);
 				MACH_O_TYPE = mh_bundle;
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = OFApp;
 				REZ_PREPROCESSOR_DEFINITIONS = __MACH__;
 				SDKROOT = macosx10.8;
