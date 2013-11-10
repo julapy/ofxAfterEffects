@@ -382,6 +382,7 @@
 		C4E618CF095A3CE90012CA3F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_MODEL_TUNING = G5;
 				GENERATE_PKGINFO_FILE = YES;
