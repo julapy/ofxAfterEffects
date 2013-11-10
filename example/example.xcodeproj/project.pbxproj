@@ -100,11 +100,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		67552F13182F23C9004C0FC7 /* plugin.plugin */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = plugin.plugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		67552F13182F23C9004C0FC7 /* OFApp.plugin */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OFApp.plugin; sourceTree = BUILT_PRODUCTS_DIR; };
 		67552F14182F23C9004C0FC7 /* plugin-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "plugin-Info.plist"; path = "/Volumes/STORAGE/openFrameworks/addons/ofxAfterEffects/example/plugin-Info.plist"; sourceTree = "<absolute>"; };
-		676F4E25182D9ED200E1687F /* plugin-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "plugin-Info.plist"; sourceTree = "<group>"; };
-		676F4E27182D9ED200E1687F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		676F4E29182D9ED200E1687F /* plugin-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "plugin-Prefix.pch"; sourceTree = "<group>"; };
 		676F4E30182DA0E700E1687F /* ofxAfterEffects.r */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.rez; path = ofxAfterEffects.r; sourceTree = "<group>"; };
 		676F4E37182DA62F00E1687F /* ofxAfterEffects_Strings.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ofxAfterEffects_Strings.cpp; sourceTree = "<group>"; };
 		676F4E38182DA62F00E1687F /* ofxAfterEffects_Strings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxAfterEffects_Strings.h; sourceTree = "<group>"; };
@@ -275,24 +272,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		676F4E23182D9ED200E1687F /* plugin */ = {
-			isa = PBXGroup;
-			children = (
-				676F4E24182D9ED200E1687F /* Supporting Files */,
-			);
-			path = plugin;
-			sourceTree = "<group>";
-		};
-		676F4E24182D9ED200E1687F /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				676F4E25182D9ED200E1687F /* plugin-Info.plist */,
-				676F4E26182D9ED200E1687F /* InfoPlist.strings */,
-				676F4E29182D9ED200E1687F /* plugin-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		67725780182C7D41001421CB /* ofxAfterEffects */ = {
 			isa = PBXGroup;
 			children = (
@@ -535,12 +514,11 @@
 				67552F14182F23C9004C0FC7 /* plugin-Info.plist */,
 				E4EB6923138AFD0F00A09F29 /* Project.xcconfig */,
 				E4B69E1C0A3A1BDC003C02F2 /* src */,
-				676F4E23182D9ED200E1687F /* plugin */,
 				E4EEC9E9138DF44700A80321 /* openFrameworks */,
 				BB4B014C10F69532006C3DED /* addons */,
 				E45BE5980E8CC70C009D7055 /* frameworks */,
 				E4B69B5B0A3A1756003C02F2 /* exampleDebug.app */,
-				67552F13182F23C9004C0FC7 /* plugin.plugin */,
+				67552F13182F23C9004C0FC7 /* OFApp.plugin */,
 			);
 			sourceTree = "<group>";
 		};
@@ -566,9 +544,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		67552EF5182F23C9004C0FC7 /* plugin */ = {
+		67552EF5182F23C9004C0FC7 /* OFApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 67552F10182F23C9004C0FC7 /* Build configuration list for PBXNativeTarget "plugin" */;
+			buildConfigurationList = 67552F10182F23C9004C0FC7 /* Build configuration list for PBXNativeTarget "OFApp" */;
 			buildPhases = (
 				67552EF8182F23C9004C0FC7 /* Sources */,
 				67552EFB182F23C9004C0FC7 /* Frameworks */,
@@ -581,9 +559,9 @@
 			dependencies = (
 				67552EF6182F23C9004C0FC7 /* PBXTargetDependency */,
 			);
-			name = plugin;
+			name = OFApp;
 			productName = myOFApp;
-			productReference = 67552F13182F23C9004C0FC7 /* plugin.plugin */;
+			productReference = 67552F13182F23C9004C0FC7 /* OFApp.plugin */;
 			productType = "com.apple.product-type.application";
 		};
 		E4B69B5A0A3A1756003C02F2 /* example */ = {
@@ -636,7 +614,7 @@
 			projectRoot = "";
 			targets = (
 				E4B69B5A0A3A1756003C02F2 /* example */,
-				67552EF5182F23C9004C0FC7 /* plugin */,
+				67552EF5182F23C9004C0FC7 /* OFApp */,
 			);
 		};
 /* End PBXProject section */
@@ -728,17 +706,6 @@
 		};
 /* End PBXTargetDependency section */
 
-/* Begin PBXVariantGroup section */
-		676F4E26182D9ED200E1687F /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				676F4E27182D9ED200E1687F /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
 		67552F11182F23C9004C0FC7 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -753,7 +720,9 @@
 				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../../libs/glut/lib/osx\"";
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
 				GCC_MODEL_TUNING = NONE;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Cocoa.framework/Headers/Cocoa.h";
 				HEADER_SEARCH_PATHS = (
 					"$(OF_CORE_HEADERS)",
 					src,
@@ -832,7 +801,7 @@
 				);
 				MACH_O_TYPE = mh_bundle;
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_NAME = plugin;
+				PRODUCT_NAME = OFApp;
 				REZ_PREPROCESSOR_DEFINITIONS = __MACH__;
 				SDKROOT = macosx10.8;
 				WRAPPER_EXTENSION = plugin;
@@ -851,7 +820,9 @@
 				);
 				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../../libs/glut/lib/osx\"";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
 				GCC_MODEL_TUNING = NONE;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Cocoa.framework/Headers/Cocoa.h";
 				HEADER_SEARCH_PATHS = (
 					"$(OF_CORE_HEADERS)",
 					src,
@@ -930,7 +901,7 @@
 				);
 				MACH_O_TYPE = mh_bundle;
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_NAME = plugin;
+				PRODUCT_NAME = OFApp;
 				REZ_PREPROCESSOR_DEFINITIONS = __MACH__;
 				SDKROOT = macosx10.8;
 				WRAPPER_EXTENSION = plugin;
@@ -1202,7 +1173,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		67552F10182F23C9004C0FC7 /* Build configuration list for PBXNativeTarget "plugin" */ = {
+		67552F10182F23C9004C0FC7 /* Build configuration list for PBXNativeTarget "OFApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				67552F11182F23C9004C0FC7 /* Debug */,

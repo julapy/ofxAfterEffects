@@ -30,8 +30,8 @@ typedef struct {
 
 TableString		g_strs[StrID_NUMTYPES] = {
 	StrID_NONE,						"",
-	StrID_Name,						"ofxAfterEffects",
-	StrID_Description,				"An empty (skeletal, if you will) effect sample,\r for your modifying pleasure.\rCopyright 2007 Adobe Systems Incorporated.",
+	StrID_Name,						"OFApp",
+	StrID_Description,				"Sample showing how to run an openFrameworks app inside AfterEffects.",
 	StrID_Gain_Param_Name,			"Gain",
 	StrID_Color_Param_Name,			"Color",
 };
